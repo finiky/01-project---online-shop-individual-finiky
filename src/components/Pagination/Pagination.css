@@ -1,0 +1,13 @@
+.paginatoin-button {
+  border-radius: 0.5em;
+  background: transparent;
+  border: none;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1rem;
+}
+
+.paginatoin-button:hover {
+  background: #bb2f3a59;
+  color: black;
+}

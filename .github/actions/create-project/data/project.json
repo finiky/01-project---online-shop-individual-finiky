@@ -1,0 +1,27 @@
+{
+  "name": "Online Shop",
+  "columns": [
+    {
+      "name": "To Do",
+      "default": true
+    },
+    {
+      "name": "In Progress"
+    },
+    {
+      "name": "Done"
+    }
+  ],
+  "labels": [
+    {
+      "name": "group",
+      "color": "6ed660",
+      "description": "Anyone in the group can work on"
+    },
+    {
+      "name": "individual",
+      "color": "f4007a",
+      "description": "Only one person from the group can work on"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "prod_ITgsgRSVm7y1vP",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606631666,
+      "description": "His most famous work \"David\", features a hand-sculpted micropenis and his weapon of choice when fighting crime is the Bo-Staff.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_HG5Y5oY5y2SlpQMclkQ0rjXm"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE DONATELLO POLARIZED",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631695
+    },
+    {
+      "id": "prod_ITgrISWI9X1mlU",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606631616,
+      "description": "Gobby [gob-eez]",
+      "images": [
+        "https://files.stripe.com/links/fl_test_r2lIqRzLPAgJqYJJu3xchKPP"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE GOBBY POLARIZED",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631715
+    },
+    {
+      "id": "prod_ITgPh7TEf7Nhm9",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629966,
+      "description": "“The best thing we’ve ever made.” - Description writer.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_OySmdVDzKgBc9b3gbKXn22cg"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "accessories"
+      },
+      "name": "EXPERTS ONLY LOUNGER BOTTOMS",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631726
+    },
+    {
+      "id": "prod_ITgNmsl4IMGeVQ",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629840,
+      "description": "This time we got it right. We’re living like in a dolce vita. Mmmm, gonna dream tonight. We’re dancing like in a dolce vita. With lights and music on. Our love is made in the dolce vita.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_9bdFA0Nt7GJ9Q7SgThJoMvXr"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE DOLCE VITA",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631737
+    },
+    {
+      "id": "prod_ITgFv9KsBjhWFc",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629366,
+      "description": "Just be careful because it is hard to keep ladies from stealing these at the bar.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_UwxwT7mgCWx4EEOHrd1XPjiS"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "1993 NIGHT SHADES",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631747
+    },
+    {
+      "id": "prod_ITgEBP9iMPKwF8",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629309,
+      "description": "The Optimal Blend of Style and Performance. Fluffy, brightly colored scrunchies that won’t tear your hair out like elastic hairbands or the stranger at the bus stop.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_bXsKkOXQ00MgPnpI5foyviy9"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "accessories"
+      },
+      "name": "NIGHT FADE SCRUNCHIE",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631764
+    },
+    {
+      "id": "prod_ITgD3wU7KQ5SIl",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629222,
+      "description": "The only logical evolution of the trucker hat, we bring you the Super Mesh hat. Even less hat for your buck. Featuring 5 panels, FOUR of which are made of mesh.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_qYDrplzhQOR72n7dKJ3C48PQ"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "accessories"
+      },
+      "name": "BLOCK HARD SUPER MESH HAT",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631775
+    },
+    {
+      "id": "prod_ITgCwCbJsOrfXb",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629162,
+      "description": "Tight or loose, you get to choose! A necklace for your pants. The ultimate in pantsing defense.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_wgtK9fPWBkN9kKViN8WYdyv9"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "accessories"
+      },
+      "name": "BLOCK HARD BELT",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631784
+    },
+    {
+      "id": "prod_ITgBKiaCHXJw5F",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606629091,
+      "description": "The Optimal Blend of Style and Performance. Fluffy, brightly colored scrunchies that won’t tear your hair out like elastic hairbands or the stranger at the bus stop.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_fyBXinaucwAuw1IrFLK0mKAX"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "accessories"
+      },
+      "name": "DAY FADE SCRUNCHIE",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631794
+    },
+    {
+      "id": "prod_ITbE31ZxQrFhP5",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606610671,
+      "description": "Gold, our primal instincts draw us to this element.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_iUCrsMz2JliR0gCd2Wv7JkIz"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE GOLD STANDARD POLARIZED",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606631806
+    },
+    {
+      "id": "prod_ITau9luNbmM00x",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606609504,
+      "description": "No tortoises were harmed in the making of these incredible tortoiseshell Exciters.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_InvctxcO4PLS7cWEcDJd1nnB"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE LAND LOCKED POLARIZED",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606629543
+    },
+    {
+      "id": "prod_ITGk4KgMykQqrJ",
+      "object": "product",
+      "active": true,
+      "attributes": [],
+      "created": 1606534517,
+      "description": "The 1993s are back and better than ever. Demand Respect and Authority™. In the courtroom. In the bedroom. In the bathroom. In your mugshot. In, the FUTURE.",
+      "images": [
+        "https://files.stripe.com/links/fl_test_5OpXfbOUjAp3LFSfrJuKlqwc"
+      ],
+      "livemode": false,
+      "metadata": {
+        "category": "sunglasses"
+      },
+      "name": "THE 1993 2000",
+      "statement_descriptor": null,
+      "type": "service",
+      "unit_label": null,
+      "updated": 1606629585
+    }
+  ],
+  "has_more": false,
+  "url": "/v1/products"
+}

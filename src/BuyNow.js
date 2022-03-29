@@ -4,10 +4,14 @@ import { checkout } from "../../services/checkout";
 
 const BuyNow = () => {
   const onClick = () => {
-    const button = document.querySelector(".BuyNow");
+    checkout(); // Need to add a price ID
   };
 
-  return <button className="BuyNow">Buy Now</button>;
+  return (
+    <button className="BuyNow" onClick={onClick}>
+      Buy Now
+    </button>
+  );
 };
 
 export default BuyNow;

@@ -17,7 +17,7 @@ function App() {
     loadData();
   }, []);
 
-  const Product = ({ name, description, image, price }) => {
+  const Product = ({ name, description, image, price, priceId }) => {
     return (
       <li className="product">
         <div className="imageContainer">
@@ -28,7 +28,7 @@ function App() {
           <p className="productDescription">{description}</p>
         </div>
         <p className="productPrice">{price}</p>
-        <BuyNow />
+        <BuyNow id={priceId} />
       </li>
     );
   };
@@ -38,11 +38,12 @@ function App() {
         {products.map((product) => {
           for (let i = 0; i < products.length; i++) {
             product.price = parseFloat(product.prices[0].unit_amount / 100);
-            product.price = product.price.toString();
+            product.price = `${product.price}.00 NZD`;
           }
           return (
             <Product
               key={product.id}
+              priceId={product.prices[0].id}
               name={product.name}
               description={product.description}
               price={product.price}

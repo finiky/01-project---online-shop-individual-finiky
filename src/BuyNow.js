@@ -5,7 +5,7 @@ const BuyNow = ({ id }) => {
     checkout(id);
   };
   return (
-    <button className="BuyNow" onClick={onClick}>
+    <button className="buyNow" onClick={onClick}>
       Buy Now
     </button>
   );

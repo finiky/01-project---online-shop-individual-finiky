@@ -23,12 +23,14 @@ function App() {
         <div className="imageContainer">
           <img className="productImage" src={image} alt={name}></img>
         </div>
-        <div>
+        <div className="productInformation">
           <h2 className="productName">{name}</h2>
           <p className="productDescription">{description}</p>
         </div>
+        <div className="purchase">
         <p className="productPrice">{price}</p>
         <BuyNow id={priceId} />
+        </div>
       </li>
     );
   };
@@ -56,8 +58,10 @@ function App() {
   };
   return (
     <div className="container">
+      <header className="heading">
       <h1>Screen Time</h1>
       <p>An Online Place To Buy Monitors</p>
+      </header>
       <AllProducts products={products} />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-import { checkout } from "./services/checkout"; 
-const BuyNow = ({id}) => {
+import { checkout } from "./services/checkout";
+const BuyNow = ({ id }) => {
   const onClick = () => {
     checkout(id);
   };

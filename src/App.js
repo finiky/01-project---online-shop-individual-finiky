@@ -60,7 +60,7 @@ function App() {
     <div className="container">
       <header className="heading">
       <h1>Screen Time</h1>
-      <p>An Online Place To Buy Monitors</p>
+      <p>An Online Place To Purchase Monitors</p>
       </header>
       <AllProducts products={products} />
     </div>

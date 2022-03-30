@@ -18,18 +18,21 @@
 }
 .purchase {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 1rem;
 }
-/*later add a seperate class to all these elemnts to target them and reduce code*/
-.container,
-.imageContainer,
-.productImage,
-.heading,
-.purchase,
-.productList,
-.product {
+.productName {
+  margin: 0;
+}
+.size {
   width: 100%;
   height: auto;
+}
+.buyNow {
+  height: max-content;
+}
+.productPrice {
+  margin: 0;
 }
 
 @media only screen and (min-width: 37.563rem) {
@@ -38,25 +41,42 @@
   }
   .productList {
     grid-template-columns: 1fr 1fr;
-    row-gap: 4rem;
-    column-gap: 4rem;
-  }
-  .product {
-    grid-template-columns: 2fr 1fr;
     column-gap: 1rem;
   }
-  .purchase {
-    grid-column-start: 2;
-    column-gap: 0;
+  .product {
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: 1rem;
+  }
+  .imageContainer,
+  .productImage {
+    height: 15rem;
+  }
+  .text {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+  .productInformation {
+    margin: 0 0 1rem 0;
   }
   .productName {
-    margin-top: 0;
+    font-size: 1rem;
+  }
+  .productDescription {
+    text-align: left;
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 64.5rem) {
   .body {
     max-width: 100%;
+  }
+  .text {
+    display: block;
+  }
+  .imageContainer,
+  .productImage {
+    height: max-content;
   }
   .product {
     grid-template-columns: 1fr;

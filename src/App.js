@@ -25,11 +25,11 @@ function App() {
         </div>
         <div className="text">
           <div className="productInformation">
-            <h2 className="productName">{name}</h2>
-            <p className="productDescription">{description}</p>
+            <h2 className="productName font">{name}</h2>
+            <p className="productDescription font">{description}</p>
           </div>
           <div className="purchase">
-            <p className="productPrice">{price}</p>
+            <p className="productPrice font">{price}</p>
             <BuyNow id={priceId} />
           </div>
         </div>

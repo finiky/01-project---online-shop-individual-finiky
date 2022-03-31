@@ -7,7 +7,12 @@
   overflow-x: hidden;
   margin: 3rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-image: url(./matrix.jpg);
+  background-image: url(./360_F_488099505_M2Ot0od08hqNLPVgYFXyxhgWTYSRdAF9.jpeg);
+}
+.buyNow,
+.body {
+  color:lightblue;
+  border-color: lightblue;
 }
 .productList {
   list-style-type: none;
@@ -18,7 +23,8 @@
 .productDescription {
   margin: 0;
   justify-self: center;
-  align-self: start;
+  text-align: center;
+  align-self: center;
 }
 .container,
 .productList,
@@ -26,14 +32,17 @@
 .text {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
 }
+
 .text {
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 .productInformation {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   justify-items: center;
+  row-gap: 1rem;
 }
 .purchase {
   display: grid;
@@ -46,7 +55,8 @@
   justify-self: center;
   align-self: center;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 2rem;
+  margin: 0 auto;
 }
 .container,
 .productList {
@@ -54,8 +64,9 @@
   column-gap: 3rem;
 }
 .product {
-  padding: 1rem;
+  padding: 2rem;
   row-gap: 2rem;
+  border: dotted cadetblue 0.1rem;
 }
 .imageContainer,
 .productImage {
@@ -63,9 +74,10 @@
   height: auto;
 }
 .buyNow {
+  border-width: 0.2rem;
   height: max-content;
   font-weight: bold;
-  padding: 1rem;
+  background-image: url(./360_F_488099505_M2Ot0od08hqNLPVgYFXyxhgWTYSRdAF9.jpeg);
 }
 .productPrice {
   margin: 0;
@@ -73,14 +85,10 @@
 .buyNow,
 .productPrice,
 .productInformation {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .tagLine {
   font-weight: bolder;
-}
-.productName,
-.productDescription {
-  text-align: center;
 }
 @media only screen and (min-width: 37.563rem) {
   .body {
@@ -91,16 +99,19 @@
     row-gap: 4rem;
   }
   .product {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
+    padding: 1rem 1rem 0 0;
   }
   .text {
     grid-template-columns: none;
     grid-template-rows: 2fr 1fr;
+    row-gap: 2rem;
+    align-items: flex-start;
   }
   .productInformation {
     grid-template-rows: 1fr 2fr;
-    row-gap: 1rem;
+    row-gap: 2rem;
     align-items: center;
   }
   .productName,
@@ -112,12 +123,8 @@
   .productDescription {
     text-align: left;
   }
-  .buyNow,
-  .productPrice {
-    font-size: 1rem;
-  }
-  .productName {
-    font-size: 1.25rem;
+  .font {
+    font-size: 1.5rem;
   }
 }
 
@@ -130,22 +137,23 @@
   .product {
     grid-template-rows: none;
     grid-template-columns: 1fr;
-    row-gap: 4rem;
+    row-gap: 6rem;
+    padding: 0;
   }
-  .productList, .container {
+  .productList,
+  .container {
     column-gap: 8rem;
-    row-gap: 8rem;
+    row-gap: 10rem;
   }
   .productName,
   .productDescription {
     text-align: center;
   }
-  .buyNow,
-  .productPrice,
-  .productDescription {
+  .font,
+  .heading {
     font-size: 3rem;
   }
-  .productName, .heading {
-    font-size: 3rem;
+  .product {
+    padding: 2rem;
   }
 }

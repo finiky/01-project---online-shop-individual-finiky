@@ -19,30 +19,30 @@ function App() {
 
   const Product = ({ name, description, image, price, priceId }) => {
     return (
-      <li className="product size">
-        <div className="imageContainer size">
-          <img className=" productImage size" src={image} alt={name}></img>
+      <li className="product">
+        <div className="imageContainer">
+          <img className=" productImage" src={image} alt={name}></img>
         </div>
         <div className="text">
-        <div className="productInformation">
-          <h2 className="productName">{name}</h2>
-          <p className="productDescription">{description}</p>
-        </div>
-        <div className="purchase">
-        <p className="productPrice">{price}</p>
-        <BuyNow id={priceId} />
-        </div>
+          <div className="productInformation">
+            <h2 className="productName">{name}</h2>
+            <p className="productDescription">{description}</p>
+          </div>
+          <div className="purchase">
+            <p className="productPrice">{price}</p>
+            <BuyNow id={priceId} />
+          </div>
         </div>
       </li>
     );
   };
   const AllProducts = ({ products }) => {
     return (
-      <ul className=" productList size">
+      <ul className=" productList">
         {products.map((product) => {
           for (let i = 0; i < products.length; i++) {
             product.price = parseFloat(product.prices[0].unit_amount / 100);
-            product.price = `${product.price}.00 NZD`;
+            product.price = `${product.price}.00 NZ$`;
           }
           return (
             <Product
@@ -59,10 +59,10 @@ function App() {
     );
   };
   return (
-    <div className=" container size">
-      <header className=" heading size">
-      <h1>Screen Time</h1>
-      <p>An Online Place To Purchase Monitors</p>
+    <div className=" container">
+      <header className=" heading">
+        <h1>Screen Time</h1>
+        <p className="tagLine">An Online Monitor Shop</p>
       </header>
       <AllProducts products={products} />
     </div>

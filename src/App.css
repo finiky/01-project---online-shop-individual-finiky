@@ -3,86 +3,149 @@
 }
 .body {
   max-width: 37.5rem;
-  margin: 0 auto;
+  height: auto;
   overflow-x: hidden;
+  margin: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(./matrix.jpg);
 }
 .productList {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+.productName,
+.productDescription {
+  margin: 0;
+  justify-self: center;
+  align-self: start;
 }
 .container,
 .productList,
-.product {
+.product,
+.text {
   display: grid;
   grid-template-columns: 1fr;
 }
+.text {
+  row-gap: 2rem;
+}
+.productInformation {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
 .purchase {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+  align-items: center;
   column-gap: 1rem;
 }
-.productName {
-  margin: 0;
+.heading {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 1.6rem;
 }
-.size {
+.container,
+.productList {
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+.product {
+  padding: 1rem;
+  row-gap: 2rem;
+}
+.imageContainer,
+.productImage {
   width: 100%;
   height: auto;
 }
 .buyNow {
   height: max-content;
+  font-weight: bold;
+  padding: 1rem;
 }
 .productPrice {
   margin: 0;
 }
-
+.buyNow,
+.productPrice,
+.productInformation {
+  font-size: 1.2rem;
+}
+.tagLine {
+  font-weight: bolder;
+}
+.productName,
+.productDescription {
+  text-align: center;
+}
 @media only screen and (min-width: 37.563rem) {
   .body {
     max-width: 64rem;
   }
   .productList {
     grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
+    row-gap: 4rem;
   }
   .product {
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 1rem;
   }
-  .imageContainer,
-  .productImage {
-    height: 15rem;
-  }
   .text {
-    display: grid;
+    grid-template-columns: none;
     grid-template-rows: 2fr 1fr;
   }
   .productInformation {
-    margin: 0 0 1rem 0;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 1rem;
+    align-items: center;
   }
-  .productName {
-    font-size: 1rem;
+  .productName,
+  .productDescription {
+    margin: 0;
+    padding: 0;
   }
+  .productName,
   .productDescription {
     text-align: left;
-    margin-bottom: 0;
+  }
+  .buyNow,
+  .productPrice {
+    font-size: 1rem;
+  }
+  .productName {
+    font-size: 1.25rem;
   }
 }
 
 @media only screen and (min-width: 64.5rem) {
   .body {
     max-width: 100%;
+    margin: 8rem;
   }
-  .text {
-    display: block;
-  }
-  .imageContainer,
-  .productImage {
-    height: max-content;
-  }
+  .text,
   .product {
+    grid-template-rows: none;
     grid-template-columns: 1fr;
+    row-gap: 4rem;
   }
-  .purchase {
-    grid-template-columns: 1fr 1fr;
-    grid-column-start: auto;
+  .productList, .container {
+    column-gap: 8rem;
+    row-gap: 8rem;
+  }
+  .productName,
+  .productDescription {
+    text-align: center;
+  }
+  .buyNow,
+  .productPrice,
+  .productDescription {
+    font-size: 3rem;
+  }
+  .productName, .heading {
+    font-size: 3rem;
   }
 }

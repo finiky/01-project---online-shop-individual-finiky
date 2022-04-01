@@ -28,4 +28,4 @@ This project uses the following systems to work properly.
 ## Deployed Application Links
 
 * [Begin](https://begin.com/apps/5ew5uxwq5n52wx/environments)
-* [Netlify](https://62466e8bae6ce00008f3f753--charming-dragon-6891a1.netlify.app/)
+* [Netlify](https://charming-dragon-6891a1.netlify.app/)

@@ -123,6 +123,9 @@
   .font {
     font-size: 1.5rem;
   }
+  .imageContainer {
+    align-self: flex-start;
+  }
 }
 
 @media only screen and (min-width: 64.5rem) {
@@ -136,6 +139,7 @@
     grid-template-columns: 1fr;
     row-gap: 6rem;
     padding: 0;
+    align-items: center;
   }
   .productList,
   .container {

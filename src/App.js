@@ -40,10 +40,8 @@ function App() {
     return (
       <ul className=" productList">
         {products.map((product) => {
-          for (let i = 0; i < products.length; i++) {
             product.price = parseFloat(product.prices[0].unit_amount / 100);
             product.price = `${product.price}.00 NZ$`;
-          }
           return (
             <Product
               key={product.id}
